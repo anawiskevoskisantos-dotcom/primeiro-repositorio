@@ -2,8 +2,14 @@ body {
 background-color: darkolivegreen;
 color: lightcyan;
 }
-h1 { 
-font-size: 30px;
-text-align: center;
 
+h1 { 
+  font-size: 30px;
+ text-align: center;
+   text-transform: uppercase;
+}
+
+p {
+ font-size: 16px;
+color: black;
 }
