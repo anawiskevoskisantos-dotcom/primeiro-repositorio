@@ -3,7 +3,14 @@ background-color: darkolivegreen;
 color: lightcyan;
 }
 
-h1 { 
+header {
+border: solid 2px black;
+font-size: 32px ;
+padding: 10px;
+color: azure;
+}
+h1 {
+
   font-size: 30px;
  text-align: center;
    text-transform: uppercase;
