@@ -1,13 +1,13 @@
 body { 
 background-color: darkolivegreen;
-color: lightcyan;
+color: rgb(255, 252, 84);
 }
 
 header {
 border: solid 2px black;
 font-size: 32px ;
 padding: 10px;
-color: azure;
+color: rgb(0, 105, 105);
 }
 h1 {
 
