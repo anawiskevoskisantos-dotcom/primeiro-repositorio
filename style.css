@@ -2,6 +2,8 @@ body {
 background-color:rgb(227, 3, 3);
 color: rgb(255, 241, 247);
  font-family: "Monsieur", la-doulaise;
+ margin: 0px;
+ margin-bottom: 100px;
 }
 
 header {
@@ -11,13 +13,12 @@ padding: 10px;
 color: rgb(217, 252, 255);
 }
 
-section{ 
+.chamada{ 
   background-color: rgb(132, 19, 19);
   padding-bottom: 80px;
   padding-top: 80px;
   display: flex;
   justify-content: center;
-
 }
 
 .chamada-texto{
@@ -34,4 +35,29 @@ h1 {
 p {
  font-size: 16px;
 color: rgb(0, 0, 0);
+}
+.categoria{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+
+.categoria-videos{
+  display: flex;
+  overflow: auto;
+  gap: 10px;
+}
+
+.categoria-videos img{
+  opacity: 0.5px;
+  height: 200px;
+}
+
+.categoria-videos img:hover{
+  opacity: 1.0;
+  border: 1px solid sienna;
+}
+
+.categoria h2{
+  color: brown;
 }
